@@ -1,3 +1,7 @@
-Project: Vige.Dr Official Website
-Founder: Dr. R. Vijayakumar
-Purpose: Verification portal for Google for Startups Cloud Program.
+# Vige.Dr Official Site
+This repository contains the source code for the official Vige.Dr website (vigevetlabs.xyz).
+
+## Developer Verification
+- **Founder:** Dr. R. Vijayakumar
+- **Developer ID:** 7617286356493197451
+- **Associated Email:** vige.vet@live.com
