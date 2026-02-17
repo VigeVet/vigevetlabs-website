@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigeVet Labs | Veterinary Tech Innovation</title>
+    <style>
+        /* CSS Styles */
+        :root {
+            --primary: #1a73e8; /* Google Blue */
+            --dark: #202124;
+            --light: #f8f9fa;
+            --gray: #5f6368;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: var(--dark);
+        }
+        header {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 5%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+        }
+        .hero {
+            background: var(--light);
+            padding: 4rem 5%;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+        .cta-button {
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .section {
+            padding: 4rem 5%;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 2rem;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+        .footer {
+            background: var(--dark);
+            color: white;
+            padding: 2rem 5%;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #bdc1c6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">VigeVet Labs</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#products">Apps</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Innovating Veterinary Care with Technology</h1>
+        <p>Bridging the gap between traditional veterinary science and modern technology using AI, Android Development, and Blockchain solutions.</p>
+        <a href="#products" class="cta-button">View Our Solutions</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About The Founder</h2>
+        <p><strong>Dr. R. Vijayakumar</strong> is a licensed veterinarian with over 10 years of clinical experience and a passionate Android Developer. VigeVet Labs was founded in 2021 to create digital tools that empower veterinary professionals and pet owners.</p>
+        <p>We are currently exploring integrations with <strong>Google Cloud</strong>, <strong>Hedera Hashgraph</strong>, and <strong>XRPL</strong> to bring transparency and efficiency to animal healthcare data.</p>
+    </section>
+
+    <section id="products" class="section" style="background-color: #f8f9fa;">
+        <h2>Our Applications</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Fortune WordVibe</h3>
+                <p>An innovative mobile application designed to bring positivity and insight to users' daily lives. Available now on the Google Play Store.</p>
+                <a href="https://play.google.com/store/apps/dev?id=7617286356493197451" target="_blank" style="color:var(--primary); text-decoration:none; font-weight:bold;">View on Play Store &rarr;</a>
+            </div>
+
+            <div class="card">
+                <h3>Intuition Numbers</h3>
+                <p>A logic-based number guessing game that challenges cognitive skills and pattern recognition. A testament to our interactive design capabilities.</p>
+                <a href="https://play.google.com/store/apps/dev?id=7617286356493197451" target="_blank" style="color:var(--primary); text-decoration:none; font-weight:bold;">View on Play Store &rarr;</a>
+            </div>
+
+            <div class="card">
+                <h3>Vige.Dr Telemedicine (Beta)</h3>
+                <p>Upcoming platform connecting pet owners with veterinary specialists via secure, blockchain-verified consultations.</p>
+                <span>Coming Soon</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p><strong>Contact Us:</strong> <a href="mailto:admin@vigevetlabs.xyz">admin@vigevetlabs.xyz</a></p>
+        <p>
+            &copy; 2026 VigeVet Labs. Founded 2021.<br>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </p>
+        <p style="margin-top: 1rem; color: #5f6368; font-size: 0.8rem;">
+            Registered Developer ID: 7617286356493197451
+        </p>
+    </footer>
+
+</body>
+</html>
