@@ -215,6 +215,86 @@
             margin: 0 10px;
         }
     </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://vigevetlabs.xyz/#person",
+          "name": "Dr. R. Vijayakumar",
+          "alternateName": "Vige.Dr",
+          "jobTitle": "Veterinarian & Android App Developer",
+          "description": "Veterinarian holding an M.V.Sc degree, specializing in home visit pet care, and an active Android app developer and startup founder.",
+          "url": "https://vigevetlabs.xyz",
+          "knowsAbout": [
+            "Veterinary Medicine", 
+            "Pet Health", 
+            "Android App Development", 
+            "Blockchain Technology"
+          ],
+          "award": [
+            "Gold Medal - Startup Pitching Workshop",
+            "Titanium Medal - Youthfest Short Film"
+          ],
+          "sameAs": [
+            "https://www.instagram.com/vige.dr",
+            "https://www.linkedin.com/in/vigedr/"
+          ],
+          "worksFor": {
+            "@id": "https://vigevetlabs.xyz/#organization"
+          }
+        },
+        {
+          "@type": ["VeterinaryCare", "LocalBusiness", "Organization"],
+          "@id": "https://vigevetlabs.xyz/#organization",
+          "name": "VigeVet Labs",
+          "url": "https://vigevetlabs.xyz",
+          "logo": "https://raw.githubusercontent.com/VigeVet/Vige.Dr-logo/main/vigedr.png",
+          "image": "https://raw.githubusercontent.com/VigeVet/Vige.Dr-logo/main/vigedr.png",
+          "description": "Premium Home Visit Only veterinary practice providing stress-free, at-home pet care.",
+          "telephone": "+919965669509",
+          "email": "vige.vet@live.com",
+          "priceRange": "$$",
+          "founder": {
+            "@id": "https://vigevetlabs.xyz/#person"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Pondicherry"
+            },
+            {
+              "@type": "Neighborhood",
+              "name": "Lawspet"
+            }
+          ],
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          "makesOffer": {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Home Visit Veterinary Consultation"
+            }
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
 
