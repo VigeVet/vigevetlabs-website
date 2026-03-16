@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vige.Dr - Innovating Veterinary Care with Android & Blockchain Technology. Founded by Dr. R. Vijayakumar.">
-    <title>Vige.Dr | Veterinary SaaS</title>
+    <meta name="description" content="Vige.Dr - Innovating Veterinary Care with Android & Blockchain Technology. Founded by Dr. R. Vijayakumar, M.V.Sc.">
+    <title>Vige.Dr | Veterinary SaaS & Blockchain</title>
     <style>
         /* --- CSS STYLES --- */
         :root {
@@ -55,7 +55,6 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            cursor: default;
         }
 
         nav ul {
@@ -107,8 +106,9 @@
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 1.1rem;
+            font-size: 1rem;
             transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
         }
 
         .btn:hover {
@@ -134,6 +134,15 @@
         .section-title h2 {
             font-size: 2.2rem;
             margin-bottom: 0.5rem;
+        }
+
+        /* Social Link Grid */
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 2rem;
+            width: 100%;
         }
 
         /* Portfolio Card */
@@ -226,12 +235,18 @@
           "name": "Dr. R. Vijayakumar",
           "alternateName": "Vige.Dr",
           "jobTitle": "Veterinarian & Android App Developer",
-          "description": "Veterinarian holding an M.V.Sc degree and an active Android app developer and tech startup founder.",
+          "description": "Dr. R. Vijayakumar is an M.V.Sc. Veterinarian, Android developer, and founder of Vige.Dr, specializing in blockchain-integrated veterinary SaaS.",
           "url": "https://vigevetlabs.xyz",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Puducherry",
+            "addressCountry": "IN"
+          },
           "knowsAbout": [
             "Veterinary Medicine", 
             "Android App Development", 
             "Blockchain Technology",
+            "Hedera Hashgraph",
             "SaaS"
           ],
           "award": [
@@ -240,7 +255,8 @@
           ],
           "sameAs": [
             "https://www.instagram.com/vige.dr",
-            "https://www.linkedin.com/in/vigedr/"
+            "https://www.linkedin.com/in/vigedr/",
+            "https://play.google.com/store/apps/dev?id=7617286356493197451"
           ],
           "worksFor": {
             "@id": "https://vigevetlabs.xyz/#organization"
@@ -255,7 +271,8 @@
           "image": "https://raw.githubusercontent.com/VigeVet/Vige.Dr-logo/main/vigedr.png",
           "description": "A technology startup developing proprietary SaaS and Web3/Blockchain solutions for the veterinary industry.",
           "telephone": "+919965669509",
-          "email": "admin@vigevetlabs.xyz"
+          "email": "admin@vigevetlabs.xyz",
+          "founder": { "@id": "https://vigevetlabs.xyz/#person" }
         }
       ]
     }
@@ -279,7 +296,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Veterinary SaaS Platform</h1>
-            <p style="font-size: 1.2rem; color: var(--text-gray);">A proprietary software product delivering secure, blockchain-integrated health records for the veterinary industry.</p>
+            <p>Innovating animal healthcare with secure, blockchain-integrated health records and native Android solutions.</p>
             <a href="#apps" class="btn">View Verified Portfolio</a>
         </div>
     </section>
@@ -287,19 +304,34 @@
     <section id="about" class="section">
         <div class="container">
             <div class="section-title">
-                <h2>Our Software Product</h2>
+                <h2>About the Founder & Vige.Dr</h2>
             </div>
-            <div class="founder-content" style="text-align: center; font-size: 1.2rem; line-height: 1.8;">
-                <p>
-                    <strong>Vige.Dr</strong> is a pure technology startup developing a proprietary SaaS (Software as a Service) ecosystem. Founded by a veterinary professional, we build scalable native Android applications backed by Web3/Hedera infrastructure to modernize global pet data management.
-                </p>
-
-                <div style="margin-top: 2.5rem; background-color: #e8f0fe; padding: 20px; border-radius: 12px; border: 1px solid #d2e3fc; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                    <p style="font-size: 1rem; color: #1a73e8; margin-bottom: 8px; font-weight: bold;">
-                        ℹ️ Note on Account Ownership:
+            <div class="founder-content" style="display: flex; flex-direction: column; gap: 2rem; align-items: center;">
+                
+                <div style="max-width: 850px; text-align: left; line-height: 1.8;">
+                    <p style="margin-bottom: 1.5rem;">
+                        <strong>Vige.Dr</strong> is a proprietary technology startup founded in 2021, operating at the intersection of veterinary science and decentralized technology. Our mission is to modernize global pet data management through scalable SaaS ecosystems.
                     </p>
+                    
+                    <p style="margin-bottom: 1.5rem;">
+                        The startup was founded by <strong>Dr. R. Vijayakumar</strong>, a highly qualified professional holding a <strong>Master of Veterinary Science (M.V.Sc.) in Veterinary Medicine</strong>. Dr. Vijayakumar is an expert <strong>Android App Developer</strong> and a recipient of a <strong>Gold Medal</strong> in startup pitching. 
+                    </p>
+
+                    <p>
+                        By leveraging <strong>Hedera Hashgraph (Web3)</strong> infrastructure, Vige.Dr ensures that veterinary health records are immutable, secure, and easily accessible. Vige.Dr is proud to be part of the <strong>Google for Startups Cloud Program</strong>, pushing the boundaries of what's possible in pet-tech.
+                    </p>
+                </div>
+
+                <div class="link-grid">
+                    <a href="https://play.google.com/store/apps/dev?id=7617286356493197451" class="btn" style="background: #34a853;">Google Play Profile</a>
+                    <a href="https://www.instagram.com/vige.dr" class="btn" style="background: #E1306C;">Instagram</a>
+                    <a href="https://www.linkedin.com/in/vigedr/" class="btn" style="background: #0077b5;">LinkedIn</a>
+                    <a href="https://hashscan.io/mainnet/token/0.0.123456" class="btn" style="background: #222;">Hedera Token (Vige)</a>
+                </div>
+
+                <div style="margin-top: 2.5rem; background-color: #f8f9fa; padding: 20px; border-radius: 12px; border-left: 5px solid var(--primary); text-align: left; width: 100%;">
                     <p style="font-size: 0.95rem; color: #3c4043; line-height: 1.5; margin-bottom: 0;">
-                        The Google Play Console developer account for Vige.Dr is registered under the founder's personal email (<strong>vige.vet@live.com</strong>). This website (<strong>vigevetlabs.xyz</strong>) serves as the official business verification domain. Both are owned and managed by Dr. R. Vijayakumar.
+                        <strong>Entity Verification:</strong> The Google Play Developer account (ID: 7617286356493197451) is registered under the founder's email <strong>vige.vet@live.com</strong>. This domain (<strong>vigevetlabs.xyz</strong>) serves as the official business verification hub for all Vige.Dr software products.
                     </p>
                 </div>
             </div>
@@ -309,46 +341,44 @@
     <section id="apps" class="section" style="background-color: #fcfcfc;">
         <div class="container">
             <div class="section-title">
-                <h2>Our Platform</h2>
+                <h2>Our Tech Stack</h2>
             </div>
             
             <div class="verified-card">
                 <span class="verified-badge">✓ Google Play Verified</span>
-                
-                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Core Tech Product: Android Client</h3>
-                
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Mobile Development</h3>
                 <p style="color: var(--text-gray); margin-bottom: 2rem;">
-                    Browse our full catalog of published applications, including <strong>Pet Registration Form</strong> and <strong>Pet Health Form</strong>, directly on our official Google Play Developer Profile.
+                    Vige.Dr develops proprietary Android applications including <strong>Pet Registration Form</strong> and <strong>Pet Health Form</strong>, ensuring professional standards in data entry and storage.
                 </p>
-
                 <p style="margin-bottom: 2rem;">
                     <strong>Developer ID:</strong> <span class="id-number">7617286356493197451</span>
                 </p>
-
-                <a href="https://play.google.com/store/apps/dev?id=7617286356493197451" target="_blank" class="btn">
-                    Visit Developer Profile &rarr;
-                </a>
+                <a href="https://play.google.com/store/apps/dev?id=7617286356493197451" target="_blank" class="btn">Visit Developer Profile &rarr;</a>
             </div>
         </div>
     </section>
 
     <footer id="contact">
         <div class="container">
-            <h3 style="margin-bottom: 2rem; font-size: 2rem;">Contact Vige.Dr</h3>
+            <h3 style="margin-bottom: 2rem; font-size: 2rem;">Official Headquarters</h3>
             
              <div class="contact-wrapper">
                 <div class="contact-info">
                     <div class="contact-row">
-                        <span class="contact-label">Email:</span>
+                        <span class="contact-label">Location:</span>
+                        <span class="contact-value">Puducherry, 605001, India</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">Admin:</span>
                         <a href="mailto:admin@vigevetlabs.xyz" class="contact-value">admin@vigevetlabs.xyz</a>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">Support:</span>
+                        <a href="mailto:vige.vet@live.com" class="contact-value">vige.vet@live.com</a>
                     </div>
                     <div class="contact-row">
                         <span class="contact-label">Phone:</span>
                         <a href="tel:+919965669509" class="contact-value">+91 99656 69509</a>
-                    </div>
-                    <div class="contact-row">
-                        <span class="contact-label">Location:</span>
-                        <span style="color: white; font-weight: bold;">Puducherry, India</span>
                     </div>
                 </div>
             </div>
@@ -358,8 +388,8 @@
             </div>
 
             <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #3c4043; color: #9aa0a6; font-size: 0.9rem;">
-                <p>&copy; 2026 Vige.Dr. All Rights Reserved. Founded 2021.</p>
-                <p>Official Verification Site for Google Cloud for Startups.</p>
+                <p>&copy; 2021-2026 Vige.Dr. All Rights Reserved.</p>
+                <p>Official Verification Site for Google Cloud for Startups Program.</p>
             </div>
         </div>
     </footer>
